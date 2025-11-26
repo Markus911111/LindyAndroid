@@ -2,6 +2,10 @@
 
 A complete, beginner-friendly Android project template optimized for Samsung Galaxy S24 and modern Android development.
 
+## 📚 **[→ MASTER TABLE OF CONTENTS ←](TABLE_OF_CONTENTS.md)**
+
+**New here?** Start with the [organized navigation guide](TABLE_OF_CONTENTS.md) to find exactly what you need!
+
 ## ✨ Features
 
 - 🎨 **Material Design 3** - Modern, beautiful UI components
