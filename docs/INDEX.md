@@ -1,6 +1,12 @@
 # 📚 Android Command Center Documentation Index
 
-Welcome to the complete documentation for the Android Command Center Galaxy S24 template! This page helps you navigate all available guides and resources.
+Welcome to the complete documentation for the Android Command Center Galaxy S24 template!
+
+## 📖 **[→ MASTER TABLE OF CONTENTS ←](../TABLE_OF_CONTENTS.md)**
+
+**For the complete organized navigation** with learning paths and task-based guides, see the **[Master Table of Contents](../TABLE_OF_CONTENTS.md)**.
+
+This page provides a detailed overview of each documentation guide.
 
 ## 🗺️ Documentation Structure
 
