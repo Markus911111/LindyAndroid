@@ -639,7 +639,7 @@ if [[ -n $(git status -s) ]]; then
     # Notify
     termux-notification \
         -t "Git Sync Complete" \
-        -c "AndroidCommandCenter synced to GitHub"
+        -c "LindyAndroid synced to GitHub"
 else
     echo "✅ Already up to date"
     termux-notification \

@@ -162,7 +162,7 @@ DEPENDENCIES = {
 
 ```bash
 # In Pydroid 3 Terminal:
-cd /storage/emulated/0/AndroidCommandCenter/python
+cd /storage/emulated/0/LindyAndroid/python
 python manifest.py
 ```
 
@@ -220,7 +220,7 @@ Pydroid Compatible: True
 # In Pydroid 3:
 # Menu → Terminal
 
-cd /storage/emulated/0/AndroidCommandCenter/python
+cd /storage/emulated/0/LindyAndroid/python
 
 # Run build script
 python scripts/build.py --variant debug
@@ -283,7 +283,7 @@ if __name__ == "__main__":
 
 ```bash
 # In Pydroid 3 Terminal:
-cd /storage/emulated/0/AndroidCommandCenter/python
+cd /storage/emulated/0/LindyAndroid/python
 pip install -r requirements.txt
 ```
 
@@ -481,7 +481,7 @@ if __name__ == "__main__":
 
 5. Configure widget:
    ├─ Name: "Quick Build"
-   ├─ Script: /storage/emulated/0/AndroidCommandCenter/python/widgets/quick_build.py
+   ├─ Script: /storage/emulated/0/LindyAndroid/python/widgets/quick_build.py
    └─ Icon: Choose build icon
 
 6. Tap widget to run! ⚡
@@ -770,7 +770,7 @@ os.chmod(gradlew, os.stat(gradlew).st_mode | stat.S_IEXEC)
 
 ```bash
 # Navigate to project
-cd /storage/emulated/0/AndroidCommandCenter/python
+cd /storage/emulated/0/LindyAndroid/python
 
 # View manifest
 python manifest.py

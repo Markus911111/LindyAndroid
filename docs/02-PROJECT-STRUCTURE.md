@@ -5,7 +5,7 @@ This guide explains the organization of the Android Command Center project and w
 ## 🗂️ Complete Project Structure
 
 ```
-AndroidCommandCenter/
+LindyAndroid/
 ├── 📁 .git/                        # Git version control (hidden)
 ├── 📁 .gradle/                     # Gradle cache (auto-generated)
 ├── 📁 .idea/                       # Android Studio settings (auto-generated)
@@ -13,7 +13,7 @@ AndroidCommandCenter/
 │   ├── 📁 build/                   # Compiled files (auto-generated)
 │   ├── 📁 src/
 │   │   ├── 📁 main/
-│   │   │   ├── 📁 java/com/lindy/android/
+│   │   │   ├── 📁 java/com/androidcommandcenter/
 │   │   │   │   └── 📄 MainActivity.kt
 │   │   │   ├── 📁 res/
 │   │   │   │   ├── 📁 drawable/

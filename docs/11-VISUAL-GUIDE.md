@@ -524,7 +524,7 @@ You Push Code
 │                  GitHub.com Interface                         │
 ├──────────────────────────────────────────────────────────────┤
 │                                                              │
-│  Your Repository: AndroidCommandCenter                       │
+│  Your Repository: LindyAndroid                       │
 │  ┌──────────────────────────────────────────────────────┐  │
 │  │ [Code] [Issues] [Pull requests] [Actions] [Settings] │  │
 │  └──────────────────────────────────────────────────────┘  │

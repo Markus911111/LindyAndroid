@@ -91,7 +91,7 @@ adb pull /sdcard/remote-file.txt
 
 ### Source Code
 ```
-app/src/main/java/com/lindy/android/
+app/src/main/java/com/androidcommandcenter/
 ├── MainActivity.kt          # Main screen
 └── [Add your activities here]
 ```

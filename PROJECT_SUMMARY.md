@@ -153,7 +153,7 @@ Unlike basic templates, Android Command Center includes:
 ## 📂 Repository Structure
 
 ```
-AndroidCommandCenter/
+LindyAndroid/
 ├── 📄 Core Documents
 │   ├── README.md (Start here!)
 │   ├── TABLE_OF_CONTENTS.md (Master navigation)

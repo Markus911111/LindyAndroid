@@ -37,8 +37,8 @@ Before you begin, you'll need to install:
 Open your terminal (Command Prompt on Windows, Terminal on Mac/Linux) and run:
 
 ```bash
-git clone https://github.com/Markus911111/AndroidCommandCenter.git
-cd AndroidCommandCenter
+git clone https://github.com/Markus911111/LindyAndroid.git
+cd LindyAndroid
 ```
 
 ## 📂 Step 2: Open the Project
@@ -46,7 +46,7 @@ cd AndroidCommandCenter
 ### Using Android Studio (Recommended):
 1. Open Android Studio
 2. Click "Open" or "Open an Existing Project"
-3. Navigate to the `AndroidCommandCenter` folder you just cloned
+3. Navigate to the `LindyAndroid` folder you just cloned
 4. Click "OK"
 5. Wait for Gradle to sync (this may take a few minutes the first time)
 
@@ -60,11 +60,11 @@ cd AndroidCommandCenter
 Here's what each folder contains:
 
 ```
-AndroidCommandCenter/
+LindyAndroid/
 ├── app/                          # Your application code
 │   ├── src/
 │   │   └── main/
-│   │       ├── java/com/lindy/android/  # Kotlin source files
+│   │       ├── java/com/androidcommandcenter/  # Kotlin source files
 │   │       │   └── MainActivity.kt      # Main app screen
 │   │       ├── res/                     # Resources
 │   │       │   ├── layout/              # UI layouts

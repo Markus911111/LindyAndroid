@@ -11,7 +11,7 @@ This page provides a detailed overview of each documentation guide.
 ## 🗺️ Documentation Structure
 
 ```
-AndroidCommandCenter/
+LindyAndroid/
 ├── 📄 README.md                    # Project overview and quick start
 ├── 📄 QUICK_REFERENCE.md           # Command cheat sheet
 └── 📁 docs/                        # Organized documentation

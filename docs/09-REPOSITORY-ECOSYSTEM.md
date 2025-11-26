@@ -8,7 +8,7 @@ This document connects all repositories in the Markus911111 ecosystem and shows 
 
 | Repository | Description | Type | Status | Links |
 |-----------|-------------|------|--------|-------|
-| **[AndroidCommandCenter](https://github.com/Markus911111/AndroidCommandCenter)** | Android Galaxy S24 template for Lindy-based projects | Android/Mobile | ✅ Active | [Docs](../README.md) |
+| **[AndroidCommandCenter](https://github.com/Markus911111/LindyAndroid)** | Android Galaxy S24 template for Lindy-based projects | Android/Mobile | ✅ Active | [Docs](../README.md) |
 | **[Newgen](https://github.com/Markus911111/Newgen)** | Genspark telltale RPG game project | Game/RPG | ✅ Active | [GitHub](https://github.com/Markus911111/Newgen) |
 | **[BookSmartAI](https://github.com/Markus911111/BookSmartAI)** | AI-powered book and learning platform | AI/Education | ✅ Active | [GitHub](https://github.com/Markus911111/BookSmartAI) |
 
@@ -106,7 +106,7 @@ class NewgenApiService {
 **Cross-Repository Development**:
 ```bash
 # Clone both repositories
-git clone https://github.com/Markus911111/AndroidCommandCenter.git
+git clone https://github.com/Markus911111/LindyAndroid.git
 git clone https://github.com/Markus911111/Newgen.git
 
 # Work on mobile companion
@@ -409,7 +409,7 @@ mkdir ~/markus911111-workspace
 cd ~/markus911111-workspace
 
 # Clone all repositories
-git clone https://github.com/Markus911111/AndroidCommandCenter.git
+git clone https://github.com/Markus911111/LindyAndroid.git
 git clone https://github.com/Markus911111/Newgen.git
 git clone https://github.com/Markus911111/BookSmartAI.git
 
@@ -615,7 +615,7 @@ class EcosystemRepository {
 ```bash
 # Clone all repos
 mkdir ~/workspace && cd ~/workspace
-git clone https://github.com/Markus911111/AndroidCommandCenter.git
+git clone https://github.com/Markus911111/LindyAndroid.git
 git clone https://github.com/Markus911111/Newgen.git
 git clone https://github.com/Markus911111/BookSmartAI.git
 ```
@@ -662,14 +662,14 @@ Each repository should link to others:
 ```markdown
 ## Mobile Experience
 
-Check out **[AndroidCommandCenter](https://github.com/Markus911111/AndroidCommandCenter)** for mobile companion app template.
+Check out **[AndroidCommandCenter](https://github.com/Markus911111/LindyAndroid)** for mobile companion app template.
 ```
 
 ### In BookSmartAI README
 ```markdown
 ## Mobile App
 
-Use **[AndroidCommandCenter](https://github.com/Markus911111/AndroidCommandCenter)** as template for BookSmartAI mobile client.
+Use **[AndroidCommandCenter](https://github.com/Markus911111/LindyAndroid)** as template for BookSmartAI mobile client.
 ```
 
 ## 🎯 Future Integration Ideas

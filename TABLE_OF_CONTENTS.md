@@ -433,7 +433,7 @@ Reference:
 - docs/13-LINDY-INTEGRATION.md
 - docs/15-NO-CODE-ANLP.md
 
-### 📝 To Be Created (3 documents)
+### 📝 To Be Created (4 documents)
 - docs/04-DEVELOPMENT.md
 - docs/05-TESTING.md
 - docs/07-TROUBLESHOOTING.md
@@ -467,7 +467,7 @@ Reference:
 ### Community
 - [Stack Overflow - Android](https://stackoverflow.com/questions/tagged/android)
 - [Reddit - r/androiddev](https://reddit.com/r/androiddev)
-- [GitHub Discussions](https://github.com/Markus911111/AndroidCommandCenter/discussions)
+- [GitHub Discussions](https://github.com/Markus911111/LindyAndroid/discussions)
 
 ---
 

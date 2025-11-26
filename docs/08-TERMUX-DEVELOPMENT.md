@@ -144,8 +144,8 @@ While you can't compile full APKs without Android SDK, you can:
 1. **Clone the Repository**:
 ```bash
 cd ~/storage/shared
-git clone https://github.com/Markus911111/AndroidCommandCenter.git
-cd AndroidCommandCenter
+git clone https://github.com/Markus911111/LindyAndroid.git
+cd LindyAndroid
 ```
 
 2. **Edit Code**:
@@ -317,7 +317,7 @@ cat ~/.ssh/id_ed25519.pub
 
 Update remote URL to use SSH:
 ```bash
-git remote set-url origin git@github.com:Markus911111/AndroidCommandCenter.git
+git remote set-url origin git@github.com:Markus911111/LindyAndroid.git
 ```
 
 ## 🎨 Advanced Termux Configuration
@@ -459,7 +459,7 @@ Create a build script:
 #!/data/data/com.termux/files/usr/bin/bash
 
 # build-and-notify.sh
-cd ~/storage/shared/AndroidCommandCenter
+cd ~/storage/shared/LindyAndroid
 
 echo "Starting build..."
 termux-notification -t "Build Started" -c "Building your app..."
@@ -493,7 +493,7 @@ mkdir -p ~/.shortcuts
 3. Create script in shortcuts:
 ```bash
 #!/data/data/com.termux/files/usr/bin/bash
-cd ~/storage/shared/AndroidCommandCenter
+cd ~/storage/shared/LindyAndroid
 git pull origin main
 termux-notification -t "Git Pull" -c "Repository updated!"
 ```
@@ -547,7 +547,7 @@ ssh -p 8022 u0_a123@192.168.1.XXX
 
 ```bash
 # Morning: Update repository
-cd ~/storage/shared/AndroidCommandCenter
+cd ~/storage/shared/LindyAndroid
 git pull origin main
 
 # Edit code using micro editor
@@ -561,7 +561,7 @@ git commit -m "Updated MainActivity"
 git push origin main
 
 # Check build status on GitHub
-termux-open-url "https://github.com/Markus911111/AndroidCommandCenter/actions"
+termux-open-url "https://github.com/Markus911111/LindyAndroid/actions"
 
 # Download APK when build completes
 # Install and test on device
@@ -573,7 +573,7 @@ termux-open-url "https://github.com/Markus911111/AndroidCommandCenter/actions"
 
 ```bash
 # Navigate to project
-cd ~/storage/shared/AndroidCommandCenter
+cd ~/storage/shared/LindyAndroid
 
 # Edit file
 micro app/src/main/res/values/strings.xml
@@ -593,7 +593,7 @@ termux-notification -t "Pushed" -c "Changes uploaded to GitHub"
 #!/data/data/com.termux/files/usr/bin/bash
 # backup-daily.sh
 
-cd ~/storage/shared/AndroidCommandCenter
+cd ~/storage/shared/LindyAndroid
 
 # Commit any changes
 git add .
@@ -757,7 +757,7 @@ Galaxy S24 S Pen (if available):
 
 Similar to Codespaces:
 1. Prefix GitHub URL with `gitpod.io/#`
-2. Example: `gitpod.io/#https://github.com/Markus911111/AndroidCommandCenter`
+2. Example: `gitpod.io/#https://github.com/Markus911111/LindyAndroid`
 3. Full IDE in browser
 4. Works on Galaxy S24!
 
@@ -777,7 +777,7 @@ Similar to Codespaces:
 - [ ] Installed Git
 - [ ] Configured Git identity
 - [ ] Installed text editor
-- [ ] Cloned AndroidCommandCenter repository
+- [ ] Cloned LindyAndroid repository
 - [ ] Set up GitHub authentication
 - [ ] Created useful aliases
 - [ ] Installed Termux:API (optional)

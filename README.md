@@ -35,7 +35,7 @@ This template includes:
 
 ### For Beginners - Start Here!
 
-**📖 Read the complete guide**: [GETTING_STARTED.md](GETTING_STARTED.md)
+**📖 Read the complete guide**: [docs/01-GETTING-STARTED.md](docs/01-GETTING-STARTED.md)
 
 This comprehensive guide covers:
 - Installing required software (JDK, Android Studio)
@@ -49,8 +49,8 @@ This comprehensive guide covers:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Markus911111/AndroidCommandCenter.git
-   cd AndroidCommandCenter
+   git clone https://github.com/Markus911111/LindyAndroid.git
+   cd LindyAndroid
    ```
 
 2. **Open in Android Studio** or build with:
@@ -74,7 +74,7 @@ This comprehensive guide covers:
 ## 🏗️ Project Structure
 
 ```
-AndroidCommandCenter/
+LindyAndroid/
 ├── 📱 app/                    # Main application module
 │   ├── src/main/
 │   │   ├── java/              # Kotlin source code
@@ -85,8 +85,7 @@ AndroidCommandCenter/
 │   │   │   └── drawable/      # Images and icons
 │   │   └── AndroidManifest.xml
 │   └── build.gradle.kts       # App build configuration
-├── 📄 GETTING_STARTED.md      # Comprehensive beginner guide
-├── 📄 DEPLOYMENT.md           # How to publish your app
+├── 📁 docs/                   # Comprehensive documentation guides
 ├── 🔧 build.gradle.kts        # Project build configuration
 └── ⚙️ settings.gradle.kts     # Project settings
 ```
@@ -130,8 +129,9 @@ Edit `app/src/main/res/values/colors.xml`:
 
 ## 📚 Documentation
 
-- **[GETTING_STARTED.md](GETTING_STARTED.md)** - Complete setup guide for beginners
-- **[DEPLOYMENT.md](DEPLOYMENT.md)** - How to publish your app to Google Play Store
+- **[docs/01-GETTING-STARTED.md](docs/01-GETTING-STARTED.md)** - Complete setup guide for beginners
+- **[docs/06-DEPLOYMENT.md](docs/06-DEPLOYMENT.md)** - How to publish your app to Google Play Store
+- **[TABLE_OF_CONTENTS.md](TABLE_OF_CONTENTS.md)** - Master navigation for all documentation
 - **Code Comments** - All code is well-commented for learning
 
 ## 🔥 Key Technologies
@@ -166,7 +166,7 @@ Run tests with:
 ./gradlew assembleRelease
 ```
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for complete release and publishing instructions.
+See [docs/06-DEPLOYMENT.md](docs/06-DEPLOYMENT.md) for complete release and publishing instructions.
 
 ## 💡 Learning Resources
 
@@ -189,10 +189,11 @@ This template is open source and free to use for personal and commercial project
 
 ## 🆘 Need Help?
 
-1. Check [GETTING_STARTED.md](GETTING_STARTED.md) for detailed instructions
-2. Review the code comments in `MainActivity.kt`
-3. Search [Android Documentation](https://developer.android.com/)
-4. Ask on [Stack Overflow](https://stackoverflow.com/questions/tagged/android) with the `android` tag
+1. Check [docs/01-GETTING-STARTED.md](docs/01-GETTING-STARTED.md) for detailed instructions
+2. Review [TABLE_OF_CONTENTS.md](TABLE_OF_CONTENTS.md) for all documentation
+3. Review the code comments in `MainActivity.kt`
+4. Search [Android Documentation](https://developer.android.com/)
+5. Ask on [Stack Overflow](https://stackoverflow.com/questions/tagged/android) with the `android` tag
 
 ## 🎓 Perfect For
 
@@ -205,6 +206,6 @@ This template is open source and free to use for personal and commercial project
 
 ---
 
-**Ready to start building?** Open [GETTING_STARTED.md](GETTING_STARTED.md) and follow the step-by-step guide!
+**Ready to start building?** Open [docs/01-GETTING-STARTED.md](docs/01-GETTING-STARTED.md) and follow the step-by-step guide!
 
 Made with ❤️ for the Android development community 
