@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Command Center</string>
+    <string name="welcome_message">Welcome to Android Command Center!</string>
+    <string name="description">Complete Android template for Galaxy S24 with automation and development tools</string>
+    <string name="get_started">Get Started</string>
+    <string name="hello_galaxy">Hello, Galaxy S24!</string>
+</resources>
