@@ -1,0 +1,40 @@
+# Android Command Center - Python Requirements
+# Install with: pip install -r requirements.txt
+
+# Core Dependencies
+requests>=2.31.0
+gitpython>=3.1.40
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+
+# Automation
+invoke>=2.2.0
+click>=8.1.7
+rich>=13.7.0
+
+# Development Tools
+black>=23.12.0
+pylint>=3.0.3
+pytest>=7.4.3
+pytest-cov>=4.1.0
+
+# Android Tools
+# Note: Some may not work on Pydroid, marked with (PC only)
+# android-tools>=0.2.0  # (PC only)
+
+# Utilities
+colorama>=0.4.6
+tqdm>=4.66.1
+watchdog>=3.0.0
+
+# Data Processing
+pandas>=2.1.4
+numpy>=1.26.2
+
+# Web/API (useful for CI/CD integration)
+beautifulsoup4>=4.12.2
+lxml>=4.9.4
+
+# Pydroid 3 Compatible (works on Android)
+pillow>=10.1.0
+matplotlib>=3.8.2

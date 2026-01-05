@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme for Galaxy S24 -->
+    <style name="Theme.AndroidCommandCenter" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/lindy_primary</item>
+        <item name="colorPrimaryVariant">@color/lindy_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/lindy_primary_dark</item>
+        
+        <!-- Background color -->
+        <item name="android:colorBackground">@color/lindy_background</item>
+        
+        <!-- Customize your theme here -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
